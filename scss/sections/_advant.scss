@@ -30,22 +30,21 @@
         width: 270px;
       }
     }
+  }
+  &:first-child::before {
+    background-image: url(../img/antenna.png);
+  }
 
-    &:first-child::before {
-      background-image: url(../img/antenna.png);
-    }
+  &:nth-child(2)::before {
+    background-image: url(../img/clock.png);
+  }
 
-    &:nth-child(2)::before {
-      background-image: url(../img/clock.png);
-    }
+  &:nth-child(3)::before {
+    background-image: url(../img/diagram.png);
+  }
 
-    &:nth-child(3)::before {
-      background-image: url(../img/diagram.png);
-    }
-
-    &:last-child::before {
-      background-image: url(../img/astronaut.png);
-    }
+  &:last-child::before {
+    background-image: url(../img/astronaut.png);
   }
 
   &__title {
